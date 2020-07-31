@@ -32,9 +32,9 @@ plt.show()
 ### visualization code (prettyPicture) to show you the decision boundary
 
 
-
-
-
+from sklearn.neighbors import KNeighborsClassifier
+clf = KNeighborsClassifier(n_neighbors=20)
+clf.fit(features_train, labels_train)
 
 
 
